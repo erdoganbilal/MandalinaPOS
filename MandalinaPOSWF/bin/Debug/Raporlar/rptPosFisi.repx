@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="24.1.7.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report2" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" RollPaper="true" Margins="0, 0, 532.25, 88.89993" PaperKind="Custom" PageWidth="749" PageHeight="1504" Version="24.1" FilterString="[Kimlik] = ?" DataMember="tblCariHareketler" DataSource="#Ref-0" TextAlignment="TopRight" Dpi="254" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="532.25" Dpi="254">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRTable" Name="table1" SizeF="749,524" LocationFloat="0,0" Dpi="254" Font="Calibri, 9pt" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="4" ControlType="XRTableRow" Name="tableRow11" Weight="0.56097560975609762" Dpi="254">
+              <Cells>
+                <Item1 Ref="5" ControlType="XRTableCell" Name="tableCell22" Weight="2.107883817427386" Multiline="true" Text="tableCell22" TextAlignment="TopCenter" Dpi="254" Font="Calibri, 10pt, style=Bold">
+                  <ExpressionBindings>
+                    <Item1 Ref="6" EventName="BeforePrint" PropertyName="Text" Expression="[tblAyarlar].[isletmeUnvan]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="7" UseFont="false" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="8" ControlType="XRTableRow" Name="tableRow10" Weight="0.43826219512195125" Dpi="254">
+              <Cells>
+                <Item1 Ref="9" ControlType="XRTableCell" Name="tableCell23" Weight="2.107883817427386" Multiline="true" Text="tableCell23" TextAlignment="TopCenter" Dpi="254">
+                  <ExpressionBindings>
+                    <Item1 Ref="10" EventName="BeforePrint" PropertyName="Text" Expression="[tblAyarlar].[isletmeAdres]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="11" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item2>
+            <Item3 Ref="12" ControlType="XRTableRow" Name="tableRow12" Weight="0.43826219512195125" Dpi="254">
+              <Cells>
+                <Item1 Ref="13" ControlType="XRTableCell" Name="tableCell24" Weight="2.107883817427386" Multiline="true" Text="tableCell24" TextAlignment="TopCenter" Dpi="254">
+                  <ExpressionBindings>
+                    <Item1 Ref="14" EventName="BeforePrint" PropertyName="Text" Expression="[tblAyarlar].[isletmeTelefon]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="15" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item3>
+            <Item4 Ref="16" ControlType="XRTableRow" Name="tableRow13" Weight="0.43826219512195119" Dpi="254">
+              <Cells>
+                <Item1 Ref="17" ControlType="XRTableCell" Name="tableCell25" Weight="2.107883817427386" Multiline="true" Text="tableCell25" TextAlignment="TopCenter" Dpi="254">
+                  <ExpressionBindings>
+                    <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="[tblAyarlar].[isletmeEposta]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="19" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item4>
+            <Item5 Ref="20" ControlType="XRTableRow" Name="tableRow14" Weight="0.43826219512195125" Dpi="254">
+              <Cells>
+                <Item1 Ref="21" ControlType="XRTableCell" Name="tableCell27" Weight="0.507658831283062" Multiline="true" Text="Facebook :" Dpi="254" />
+                <Item2 Ref="22" ControlType="XRTableCell" Name="tableCell28" Weight="1.6002249861443243" Multiline="true" Text="tableCell28" TextAlignment="TopLeft" Dpi="254">
+                  <ExpressionBindings>
+                    <Item1 Ref="23" EventName="BeforePrint" PropertyName="Text" Expression="[tblAyarlar].[isletmefacebook]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="24" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item5>
+            <Item6 Ref="25" ControlType="XRTableRow" Name="tableRow15" Weight="0.4382621951219513" Dpi="254">
+              <Cells>
+                <Item1 Ref="26" ControlType="XRTableCell" Name="tableCell29" Weight="0.507658831283062" Multiline="true" Text="Instagram :" Dpi="254" Borders="Bottom" />
+                <Item2 Ref="27" ControlType="XRTableCell" Name="tableCell30" Weight="1.6002249861443243" Multiline="true" Text="tableCell30" TextAlignment="TopLeft" Dpi="254" Borders="Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="28" EventName="BeforePrint" PropertyName="Text" Expression="[tblAyarlar].[isletmeinstagram]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="29" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item6>
+            <Item7 Ref="30" ControlType="XRTableRow" Name="tableRow7" Weight="0.4382621951219513" Dpi="254">
+              <Cells>
+                <Item1 Ref="31" ControlType="XRTableCell" Name="tableCell16" Weight="0.63228786668162962" TextFormatString="{0:d}" Multiline="true" Text="Tarihi :" Dpi="254" />
+                <Item2 Ref="32" ControlType="XRTableCell" Name="tableCell17" Weight="3.1563810505770626" TextFormatString="{0:d.MM.yyyy}" Multiline="true" Text="tableCell17" TextAlignment="TopLeft" Dpi="254">
+                  <ExpressionBindings>
+                    <Item1 Ref="33" EventName="BeforePrint" PropertyName="Text" Expression="[Tarihi]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="34" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item7>
+            <Item8 Ref="35" ControlType="XRTableRow" Name="tableRow8" Weight="0.43826219512195141" Dpi="254">
+              <Cells>
+                <Item1 Ref="36" ControlType="XRTableCell" Name="tableCell18" Weight="0.63228786668162962" Multiline="true" Text="Ünvanı :" Dpi="254" />
+                <Item2 Ref="37" ControlType="XRTableCell" Name="tableCell19" Weight="3.1563810505770622" Multiline="true" Text="tableCell19" TextAlignment="TopLeft" Dpi="254">
+                  <ExpressionBindings>
+                    <Item1 Ref="38" EventName="BeforePrint" PropertyName="Text" Expression="[Unvan]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="39" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item8>
+            <Item9 Ref="40" ControlType="XRTableRow" Name="tableRow9" Weight="0.43826219512195119" Dpi="254">
+              <Cells>
+                <Item1 Ref="41" ControlType="XRTableCell" Name="tableCell20" Weight="0.63228786668162962" Multiline="true" Text="Kimlik :" Dpi="254" Borders="Bottom" />
+                <Item2 Ref="42" ControlType="XRTableCell" Name="tableCell21" Weight="3.1563810505770626" Multiline="true" Text="tableCell21" TextAlignment="TopLeft" Dpi="254" Borders="Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="43" EventName="BeforePrint" PropertyName="Text" Expression="[Kimlik]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="44" UseTextAlignment="false" />
+                </Item2>
+              </Cells>
+            </Item9>
+            <Item10 Ref="45" ControlType="XRTableRow" Name="tableRow16" Weight="0.43826219512195119" TextAlignment="TopCenter" Dpi="254">
+              <Cells>
+                <Item1 Ref="46" ControlType="XRTableCell" Name="tableCell31" Weight="0.76765859690825744" Multiline="true" Text="Miktar" TextAlignment="TopCenter" Dpi="254" Font="Calibri, 9pt, style=Bold" ForeColor="White" BackColor="Black" Borders="Bottom">
+                  <StylePriority Ref="47" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="48" ControlType="XRTableCell" Name="tableCell36" Weight="1.0563461821971223" Multiline="true" Text="Birim Fiyat" TextAlignment="TopCenter" Dpi="254" Font="Calibri, 9pt, style=Bold" ForeColor="White" BackColor="Black" Borders="Bottom">
+                  <StylePriority Ref="49" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="50" ControlType="XRTableCell" Name="tableCell32" Weight="1.9646641381533123" Multiline="true" Text="Tutar" TextAlignment="TopCenter" Dpi="254" Font="Calibri, 9pt, style=Bold" ForeColor="White" BackColor="Black" Borders="Bottom">
+                  <StylePriority Ref="51" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+                </Item3>
+              </Cells>
+              <StylePriority Ref="52" UseTextAlignment="false" />
+            </Item10>
+            <Item11 Ref="53" ControlType="XRTableRow" Name="tableRow17" Weight="0.087652439024390183" TextAlignment="TopCenter" Dpi="254">
+              <Cells>
+                <Item1 Ref="54" ControlType="XRTableCell" Name="tableCell33" Weight="3.788668917258692" Multiline="true" TextAlignment="TopCenter" Dpi="254" Font="Calibri, 9pt, style=Bold" ForeColor="White" BackColor="Black" Borders="Bottom">
+                  <StylePriority Ref="55" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+              <StylePriority Ref="56" UseTextAlignment="false" />
+            </Item11>
+          </Rows>
+          <StylePriority Ref="57" UseFont="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="58" ControlType="DetailBand" Name="Detail" HeightF="0" Dpi="254">
+      <HierarchyPrintOptions Ref="59" Indent="50.8" />
+    </Item2>
+    <Item3 Ref="60" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="88.89993" Dpi="254">
+      <Controls>
+        <Item1 Ref="61" ControlType="XRLabel" Name="label1" Multiline="true" Text="İADE YOKTUR. DEĞİŞİM YAPILIR." TextAlignment="TopCenter" SizeF="739.1029,49.89586" LocationFloat="7.9375,25.0000076" Dpi="254" Font="Calibri, 9.75pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="62" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="63" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="tblCariHareketler.tblUrunHareketleri" DataSource="#Ref-0" Dpi="254">
+      <Bands>
+        <Item1 Ref="64" ControlType="DetailBand" Name="Detail1" Dpi="254">
+          <HierarchyPrintOptions Ref="65" Indent="50.8" />
+          <Controls>
+            <Item1 Ref="66" ControlType="XRTable" Name="table2" SizeF="751.416748,100" LocationFloat="0,0" Dpi="254" Padding="5,5,0,0,254" Borders="None">
+              <Rows>
+                <Item1 Ref="67" ControlType="XRTableRow" Name="tableRow2" Weight="9.05511811023622" Dpi="254">
+                  <Cells>
+                    <Item1 Ref="68" ControlType="XRTableCell" Name="tableCell5" Weight="0.17694603880748938" Multiline="true" Text="tableCell5" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt" Borders="None">
+                      <ExpressionBindings>
+                        <Item1 Ref="69" EventName="BeforePrint" PropertyName="Text" Expression="[Miktar]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="70" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="71" ControlType="XRTableCell" Name="tableCell4" Weight="0.072249009840911926" Multiline="true" Text="tableCell4" TextAlignment="TopRight" Dpi="254" Borders="None">
+                      <ExpressionBindings>
+                        <Item1 Ref="72" EventName="BeforePrint" PropertyName="Text" Expression="'x'" />
+                      </ExpressionBindings>
+                    </Item2>
+                    <Item3 Ref="73" ControlType="XRTableCell" Name="tableCell6" Weight="0.34290776630320052" TextFormatString="{0:C2}" Multiline="true" Text="tableCell6" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt" Borders="None">
+                      <ExpressionBindings>
+                        <Item1 Ref="74" EventName="BeforePrint" PropertyName="Text" Expression="[BFiyat]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="75" UseFont="false" />
+                    </Item3>
+                    <Item4 Ref="76" ControlType="XRTableCell" Name="tableCell1" Weight="0.64173154711734726" TextFormatString="{0:C2}" Multiline="true" Text="tableCell1" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt" Borders="Right">
+                      <ExpressionBindings>
+                        <Item1 Ref="77" EventName="BeforePrint" PropertyName="Text" Expression="[Miktar]*[BFiyat]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="78" UseFont="false" />
+                    </Item4>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="79" ControlType="XRTableRow" Name="tableRow1" Weight="9.05511811023622" Dpi="254">
+                  <Cells>
+                    <Item1 Ref="80" ControlType="XRTableCell" Name="tableCell3" Weight="0.8571428571428571" Multiline="true" Text="tableCell3" TextAlignment="TopLeft" Dpi="254" Font="Calibri, 9.75pt" Borders="Bottom" BorderDashStyle="Dot">
+                      <ExpressionBindings>
+                        <Item1 Ref="81" EventName="BeforePrint" PropertyName="Text" Expression="[Cinsi]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="82" UseFont="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="83" ControlType="XRTableCell" Name="tableCell2" Weight="0.0050213406979663366" Multiline="true" Text="tableCell2" TextAlignment="TopLeft" Dpi="254">
+                      <StylePriority Ref="84" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+              </Rows>
+            </Item1>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item4>
+    <Item5 Ref="85" ControlType="DetailReportBand" Name="DetailReport1" Level="1" DataMember="tblCariHareketler.tblOdemeHareketleri" DataSource="#Ref-0" Dpi="254">
+      <Bands>
+        <Item1 Ref="86" ControlType="DetailBand" Name="Detail2" HeightF="40" Dpi="254">
+          <HierarchyPrintOptions Ref="87" Indent="50.8" />
+          <Controls>
+            <Item1 Ref="88" ControlType="XRTable" Name="table3" SizeF="752.0403,40" LocationFloat="0,0" Dpi="254" Padding="5,5,0,0,254" Borders="Top">
+              <Rows>
+                <Item1 Ref="89" ControlType="XRTableRow" Name="tableRow3" Weight="7.2440944881889759" Dpi="254">
+                  <Cells>
+                    <Item1 Ref="90" ControlType="XRTableCell" Name="tableCell7" Weight="0.093651177654776332" TextFormatString="{0:d.MM.yyyy}" Multiline="true" Text="tableCell7" Dpi="254" Font="Calibri, 9.75pt">
+                      <ExpressionBindings>
+                        <Item1 Ref="91" EventName="BeforePrint" PropertyName="Text" Expression="[Tarihi]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="92" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="93" ControlType="XRTableCell" Name="tableCell8" Weight="0.16871152308260146" Multiline="true" Text="tableCell8" TextAlignment="TopLeft" Dpi="254" Font="Calibri, 9.75pt">
+                      <ExpressionBindings>
+                        <Item1 Ref="94" EventName="BeforePrint" PropertyName="Text" Expression="[OdemeTuru]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="95" UseFont="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="96" ControlType="XRTableCell" Name="tableCell9" Weight="0.12807094979638961" TextFormatString="{0:C2}" Multiline="true" Text="tableCell9" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt">
+                      <ExpressionBindings>
+                        <Item1 Ref="97" EventName="BeforePrint" PropertyName="Text" Expression="[Odenen]" />
+                      </ExpressionBindings>
+                      <StylePriority Ref="98" UseFont="false" UseTextAlignment="false" />
+                    </Item3>
+                  </Cells>
+                </Item1>
+              </Rows>
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="99" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="58.4200058" Dpi="254">
+          <Controls>
+            <Item1 Ref="100" ControlType="XRLabel" Name="label2" Multiline="true" Text="Ödeme Bilgisi" TextAlignment="TopCenter" SizeF="742.040466,58.4200058" LocationFloat="4.99997759,0" Dpi="254" Font="Calibri, 9.75pt, style=Bold" ForeColor="White" BackColor="Black" Padding="2,2,0,0,96">
+              <StylePriority Ref="101" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item5>
+    <Item6 Ref="102" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="150" Dpi="254">
+      <Controls>
+        <Item1 Ref="103" ControlType="XRTable" Name="table4" SizeF="747.0404,150" LocationFloat="4.99997759,0" Dpi="254" Padding="5,5,0,0,254">
+          <Rows>
+            <Item1 Ref="104" ControlType="XRTableRow" Name="tableRow4" Weight="9.05511811023622" Dpi="254">
+              <Cells>
+                <Item1 Ref="105" ControlType="XRTableCell" Name="tableCell10" Weight="0.095564977454741226" Multiline="true" Text="Toplam Tutar :" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt, style=Bold" Borders="Top">
+                  <StylePriority Ref="106" UseFont="false" />
+                </Item1>
+                <Item2 Ref="107" ControlType="XRTableCell" Name="tableCell11" Weight="0.10553614786282721" TextFormatString="{0:C2}" Multiline="true" Text="tableCell11" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt" Borders="Top">
+                  <ExpressionBindings>
+                    <Item1 Ref="108" EventName="BeforePrint" PropertyName="Text" Expression="[Tutar]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="109" UseFont="false" />
+                </Item2>
+              </Cells>
+            </Item1>
+            <Item2 Ref="110" ControlType="XRTableRow" Name="tableRow5" Weight="9.05511811023622" Dpi="254">
+              <Cells>
+                <Item1 Ref="111" ControlType="XRTableCell" Name="tableCell12" Weight="0.095564977454741226" Multiline="true" Text="Toplam Ödenen :" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt, style=Bold">
+                  <StylePriority Ref="112" UseFont="false" />
+                </Item1>
+                <Item2 Ref="113" ControlType="XRTableCell" Name="tableCell13" Weight="0.10553614786282721" TextFormatString="{0:C2}" Multiline="true" Text="tableCell13" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt">
+                  <ExpressionBindings>
+                    <Item1 Ref="114" EventName="BeforePrint" PropertyName="Text" Expression="[Odenen]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="115" UseFont="false" />
+                </Item2>
+              </Cells>
+            </Item2>
+            <Item3 Ref="116" ControlType="XRTableRow" Name="tableRow6" Weight="9.05511811023622" Dpi="254">
+              <Cells>
+                <Item1 Ref="117" ControlType="XRTableCell" Name="tableCell14" Weight="0.095564977454741226" Multiline="true" Text="Kalan Bakiye :" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt, style=Bold">
+                  <StylePriority Ref="118" UseFont="false" />
+                </Item1>
+                <Item2 Ref="119" ControlType="XRTableCell" Name="tableCell15" Weight="0.10553614786282721" TextFormatString="{0:C2}" Multiline="true" Text="tableCell15" TextAlignment="TopRight" Dpi="254" Font="Calibri, 9.75pt">
+                  <ExpressionBindings>
+                    <Item1 Ref="120" EventName="BeforePrint" PropertyName="Text" Expression="[Kalan]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="121" UseFont="false" />
+                </Item2>
+              </Cells>
+            </Item3>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item6>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.EntityFramework.EFDataSource,DevExpress.DataAccess.v24.1" Name="efDataSource2" ConnectionStringName="" ConnectionString="" Source="MandalinaPOS.Entities.Models.MandalinaContext, MandalinaPOS.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

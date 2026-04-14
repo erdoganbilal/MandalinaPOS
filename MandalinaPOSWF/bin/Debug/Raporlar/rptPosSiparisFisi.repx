@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="24.1.7.0" Ref="1" ControlType="MandalinaPOSWF.Raporlar.rptPosSiparisFisi, MandalinaPOSWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Name="rptPosSiparisFisi" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" RollPaper="true" Margins="0, 0, 0, 58.42" PaperKind="Custom" PageWidth="750" PageHeight="1480" Version="24.1" DataSource="#Ref-0" Dpi="254" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" Dpi="254" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="58.42" Dpi="254">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRPageInfo" Name="pageInfo2" TextFormatString="Sayfa {0} / {1}" TextAlignment="TopRight" SizeF="411.803,58" LocationFloat="338.1968,0" Dpi="254" StyleName="PageInfo" />
+      </Controls>
+    </Item2>
+    <Item3 Ref="5" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="279.8" Dpi="254">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLabel" Name="xrLabelUnvan" Multiline="true" Text="PERAKENDE SATIŞ" TextAlignment="MiddleLeft" SizeF="573.0082,38.09999" LocationFloat="176.9916,237.0667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="7" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="8" ControlType="XRLabel" Name="xrLabel8" Multiline="true" Text="Ünvan :" TextAlignment="MiddleRight" SizeF="164.2917,38.09999" LocationFloat="0,237.0667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="9" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="10" ControlType="XRLabel" Name="xrLabel1" Multiline="true" Text="MANDALİNA MARKET22" TextAlignment="TopCenter" SizeF="749.9999,48.68333" LocationFloat="0,0" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="11" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="12" ControlType="XRLabel" Name="xrLabel2" Multiline="true" Text="Adres Bilgisi Burada Yer Alacak" TextAlignment="TopCenter" SizeF="749.9999,35.98334" LocationFloat="0,86.78333" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="13" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="14" ControlType="XRLabel" Name="xrLabel3" Multiline="true" Text="İletişim Bilgisi Burada Yer Alacak" TextAlignment="TopCenter" SizeF="749.9999,38.09999" LocationFloat="0,122.7667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="16" ControlType="XRLabel" Name="xrLabel4" Multiline="true" Text="SİPARİŞ BİLGİ FİŞİ" TextAlignment="TopCenter" SizeF="749.9999,38.1" LocationFloat="0,48.68333" Dpi="254" Font="Arial, 9pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="17" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="18" ControlType="XRLabel" Name="xrLabel5" Multiline="true" Text="Tarih Saat :" TextAlignment="MiddleRight" SizeF="164.2917,38.09999" LocationFloat="0,160.8667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="19" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="20" ControlType="XRLabel" Name="xrLabel6" Multiline="true" Text="Belge No :" TextAlignment="MiddleRight" SizeF="164.2917,38.09999" LocationFloat="0,198.9667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="22" ControlType="XRPageInfo" Name="xrPageInfo1" PageInfo="DateTime" TextFormatString="{0:d MMMM yyyy dddd HH:mm}" TextAlignment="MiddleLeft" SizeF="573.0082,38.09998" LocationFloat="176.9917,160.8667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="23" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="24" ControlType="XRLabel" Name="xrLabelBilgi" Multiline="true" Text="35" TextAlignment="MiddleLeft" SizeF="573.0082,38.09999" LocationFloat="176.9917,198.9667" Dpi="254" Font="Arial, 8pt" Padding="5,5,0,0,254">
+          <StylePriority Ref="25" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+    </Item3>
+    <Item4 Ref="26" ControlType="GroupHeaderBand" Name="GroupHeader1" GroupUnion="WithFirstDetail" HeightF="71.12" Dpi="254">
+      <Controls>
+        <Item1 Ref="27" ControlType="XRTable" Name="table1" TextAlignment="TopLeft" SizeF="749.9999,71.12" LocationFloat="0,0" Dpi="254">
+          <Rows>
+            <Item1 Ref="28" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="254">
+              <Cells>
+                <Item1 Ref="29" ControlType="XRTableCell" Name="tableCell3" Weight="0.19191370047418951" Text="Miktar" TextAlignment="MiddleCenter" Dpi="254" StyleName="DetailCaption1">
+                  <StylePriority Ref="30" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="31" ControlType="XRTableCell" Name="tableCell4" Weight="0.21686104245077725" Text="Birim Fiyat" TextAlignment="MiddleCenter" Dpi="254" StyleName="DetailCaption1">
+                  <StylePriority Ref="32" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="33" ControlType="XRTableCell" Name="tableCell5" Weight="0.30551086148290896" Text="Tutar" TextAlignment="MiddleCenter" Dpi="254" StyleName="DetailCaption1">
+                  <StylePriority Ref="34" UseTextAlignment="false" />
+                </Item3>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="35" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="36" ControlType="DetailBand" Name="Detail" HeightF="126.84" Dpi="254" Font="Arial, 8pt">
+      <HierarchyPrintOptions Ref="37" Indent="50.8" />
+      <Controls>
+        <Item1 Ref="38" ControlType="XRTable" Name="table2" SizeF="749.9999,126.84" LocationFloat="0,0" Dpi="254" OddStyleName="DetailData3_Odd">
+          <Rows>
+            <Item1 Ref="39" ControlType="XRTableRow" Name="tableRow2" Weight="11.683999633789062" Dpi="254">
+              <Cells>
+                <Item1 Ref="40" ControlType="XRTableCell" Name="tableCell7" Weight="0.15646824792104783" TextAlignment="MiddleRight" Dpi="254" StyleName="DetailData1">
+                  <DataBindings>
+                    <Item1 Ref="42" PropertyName="Text" DataMember="Miktar" DataSource="#Ref-41" />
+                  </DataBindings>
+                  <ExpressionBindings>
+                    <Item1 Ref="43" EventName="BeforePrint" PropertyName="Text" Expression="[Miktar]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="44" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="45" ControlType="XRTableCell" Name="tableCell8" Weight="0.0354455331127555" Text="x" TextAlignment="MiddleRight" Dpi="254" StyleName="DetailData1">
+                  <StylePriority Ref="46" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="47" ControlType="XRTableCell" Name="tableCell9" Weight="0.21686094657499538" TextFormatString="{0:C2}" TextAlignment="MiddleRight" Dpi="254" StyleName="DetailData1">
+                  <DataBindings>
+                    <Item1 Ref="48" PropertyName="Text" DataMember="BFiyat" DataSource="#Ref-41" />
+                  </DataBindings>
+                  <ExpressionBindings>
+                    <Item1 Ref="49" EventName="BeforePrint" PropertyName="Text" Expression="[BFiyat]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="50" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="51" ControlType="XRTableCell" Name="tableCell10" Weight="0.30551084472883511" TextFormatString="{0:C2}" TextAlignment="MiddleRight" Dpi="254" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="52" EventName="BeforePrint" PropertyName="Text" Expression="[Miktar]*[BFiyat]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="53" UseTextAlignment="false" />
+                </Item4>
+              </Cells>
+            </Item1>
+            <Item2 Ref="54" ControlType="XRTableRow" Name="xrTableRow1" Weight="11.683999633789062" Dpi="254">
+              <Cells>
+                <Item1 Ref="55" ControlType="XRTableCell" Name="xrTableCinsi" Weight="0.71428557233763379" Multiline="true" Text="xrTableCinsi" TextAlignment="MiddleLeft" Dpi="254" StyleName="DetailData1">
+                  <DataBindings>
+                    <Item1 Ref="56" PropertyName="Text" DataMember="Cinsi" DataSource="#Ref-41" />
+                  </DataBindings>
+                  <ExpressionBindings>
+                    <Item1 Ref="57" EventName="BeforePrint" PropertyName="Text" Expression="[Cinsi]" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="58" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item2>
+          </Rows>
+        </Item1>
+      </Controls>
+      <StylePriority Ref="59" UseFont="false" />
+    </Item5>
+    <Item6 Ref="60" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="66.16981" Dpi="254">
+      <Controls>
+        <Item1 Ref="61" ControlType="XRPanel" Name="panel1" SizeF="749.9999,66.16981" LocationFloat="9.689331E-05,0" Dpi="254" StyleName="GrandTotalBackground1">
+          <Controls>
+            <Item1 Ref="62" ControlType="XRLine" Name="xrLine1" SizeF="749.9999,5" LocationFloat="0,0" Dpi="254" />
+            <Item2 Ref="63" ControlType="XRLabel" Name="label2" Text="Sayı :" SizeF="101,37.80647" LocationFloat="0,10.15997" Dpi="254" StyleName="GrandTotalCaption1" />
+            <Item3 Ref="64" ControlType="XRLabel" Name="label3" CanGrow="false" TextAlignment="MiddleLeft" WordWrap="false" SizeF="146.1716,37.80647" LocationFloat="101,10.15997" Dpi="254" StyleName="GrandTotalData1">
+              <Summary Ref="65" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="66" EventName="BeforePrint" PropertyName="Text" Expression="sumCount([Kimlik])" />
+              </ExpressionBindings>
+              <StylePriority Ref="67" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="68" ControlType="XRLabel" Name="label4" Text="Toplam :" TextAlignment="MiddleRight" SizeF="182.0418,37.80647" LocationFloat="247.1716,10.15997" Dpi="254" StyleName="GrandTotalCaption1">
+              <StylePriority Ref="69" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="70" ControlType="XRLabel" Name="label5" TextFormatString="{0:C2}" CanGrow="false" TextAlignment="MiddleRight" WordWrap="false" SizeF="320.7863,37.80647" LocationFloat="429.2135,10.15997" Dpi="254" StyleName="GrandTotalData1">
+              <Summary Ref="71" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="72" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([Miktar]*[Bfiyat])" />
+              </ExpressionBindings>
+              <StylePriority Ref="73" UseTextAlignment="false" />
+            </Item5>
+          </Controls>
+        </Item1>
+      </Controls>
+    </Item6>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="74" Name="Title" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 14.25pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;GenericDefault" BorderWidthSerializable="1" />
+    <Item2 Ref="75" Name="DetailCaption1" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;GenericDefault" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="76" Name="DetailData1" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;GenericDefault" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="77" Name="DetailData3_Odd" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;GenericDefault" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="78" Name="GrandTotalCaption1" BorderStyle="Inset" Padding="15,5,0,0,254" Font="Arial, 8.25pt, style=Bold" ForeColor="255,147,147,147" Sides="None" StringFormat="Near;Center;0;None;Character;GenericDefault" TextAlignment="MiddleLeft" />
+    <Item6 Ref="79" Name="GrandTotalData1" BorderStyle="Inset" Padding="5,15,0,0,254" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" Sides="None" StringFormat="Near;Center;0;None;Character;GenericDefault" TextAlignment="MiddleLeft" />
+    <Item7 Ref="80" Name="GrandTotalBackground1" BorderStyle="Inset" BackColor="White" BorderColor="255,75,75,75" Sides="Bottom" StringFormat="Near;Near;0;None;Character;GenericDefault" BorderWidthSerializable="2" />
+    <Item8 Ref="81" Name="PageInfo" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;GenericDefault" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="82" ObjectType="DevExpress.DataAccess.EntityFramework.EFDataSource,DevExpress.DataAccess.v24.1" Name="efDataSource1" ConnectionStringName="" ConnectionString="" Source="MandalinaPOS.Entities.Models.MandalinaContext, MandalinaPOS.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  </ComponentStorage>
+  <Watermarks>
+    <Item1 Ref="83" Id="Watermark1" />
+  </Watermarks>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v24.1" Ref="41" Content="~Xtra#NULL" Type="System.Collections.Generic.List`1[[MandalinaPOS.Entities.Models.tblUrunHareketleri, MandalinaPOS.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v24.1" Ref="0" Content="~Xtra#NULL" Type="System.Collections.Generic.List`1[[MandalinaPOS.Entities.Models.tblUrunHareketleri, MandalinaPOS.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>
